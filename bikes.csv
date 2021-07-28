@@ -1,0 +1,12 @@
+Id,TypesofBike,Status,Power,Stock
+01,Cross Bike,Available,Manual,5
+02,Montain Bike,Available,Manual,5
+03,Road Bike,Available,Manual,5
+04,MiniVelo Bike,Available,Hybrid,5
+05,City Bike,Available,Manual,5
+06,BMX Bike,Available,Manual,5
+07,Adult Bike,Available,Manual,5
+08,Hybrid Bike,Available,Hybrid,5
+09,FOLDING BIKE,Available,Manual,5
+10,Kids Bike,Available,Manual,5
+11,Tandem Bike,Available,Manual,5

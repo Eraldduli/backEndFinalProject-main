@@ -1,0 +1,22 @@
+
+version: '3.8'
+services: 
+  mongodb:
+    image: mongo
+    ports:
+       - 27017:27017
+    volumes: 
+      - my_data:/data/db 
+  node-web:
+    build: 
+      context: ./
+      dockerfile: Dockerfile
+    links: 
+      - mongodb
+    volumes: 
+      - .:/app
+    ports: 
+      - "3000:3000"
+  
+volumes: 
+  my_data: 
